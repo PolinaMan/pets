@@ -1,7 +1,6 @@
 body{
-    display: grid;
-    grid-template-columns:1fr 67vw 1fr ;
-    grid-template-rows: 84vh 54vh 81vh 57vh 43vh 32vh;
+    display: flex;
+    align-items: center;
 }
 header{
     background: radial-gradient(at top left, #5B483A, #262425);
