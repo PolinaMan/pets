@@ -1,7 +1,4 @@
-body{
-    display: flex;
-    align-items: center;
-}
+
 header{
     background: radial-gradient(at top left, #5B483A, #262425);
     color: #ffffff;
@@ -61,6 +58,7 @@ h4{
     font-size: 20px;
     line-height: 115%;
     letter-spacing: 0.06em;
+    margin: 10px;
 }
 h5{
     font-family: Georgia;
