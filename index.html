@@ -4,7 +4,10 @@
         <title>pets</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="stylesheet" media="screen" href="style1280.css">
+        <link rel="stylesheet" media="screen and (max-width:768px)" href="stule768.css">
+        <link rel="stylesheet" media="screen and (max-width:320px)" href="style320.css"> 
+        <!--<link rel="stylesheet" type="text/css" href="style320.css">-->
     </head>
     <body>
         <div class="flex">
@@ -14,7 +17,10 @@
                         <h1 class="header__bar-title">Cozy House</h1>
                         <div class="header__bar-subtitle">Shelter for pets in Boston</div>
                     </div>
-                    <div>
+                    <div class="bar__dropdown">
+                        <div class="bar__dropdown-item"></div>
+                        <div class="bar__dropdown-item"></div>
+                        <div class="bar__dropdown-item"></div>
                         <ul>
                             <li><a class="header__bar-item" href="#">About the shelter</a></li>
                             <li><a class="header__bar-item2" href="#">Our pets</a></li>
@@ -29,35 +35,34 @@
                             need a house
                         </h1>
                         <p class="header__content-subtitle">
-                            We offer to give a chance to a little and nice puppy with an extremely <br>
-                            wide and open heart. He or she will love you more than anybody else <br>
+                            We offer to give a chance to a little and nice puppy with an extremely 
+                            wide and open heart. He or she will love you more than anybody else 
                             in the world, you will see!
                         </p>
                         <button class="button__primary"><a href="#" style="color:#292929">Make afriend</a></button>
                     </div>
                     <div class="header__content-img">
-                        <img src="start-screen-puppy.png" alt="dog">
+                        
                     </div>
                 </div>
             </header>
             <div class="about">
                 <div class="about__pets">
-                    <img src="about-pets.png" alt="pets">
                 </div>
                 <div class="content">
                     <h1 class="content__heading">About the shelter <br>
                         &ldquo;Cozy House&rdquo;
                     </h1>
-                    <p class="content__subheading">Currenty we have 121 dogs and 342 cats on our hands and <br>
-                       statistics show that only 20% of them will find a family. The <br>
-                       others will continue to live with us and will be waiting for a lucky <br>
+                    <p class="content__subheading">Currenty we have 121 dogs and 342 cats on our hands and 
+                       statistics show that only 20% of them will find a family. The 
+                       others will continue to live with us and will be waiting for a lucky 
                        chance to become dearly loved.
                     </p>
-                    <p class="content__subheading">We feed our wards with the best food and make surre that they <br>
-                       do not get sick, feel comfortable (including psychologically) and <br>
-                       well. We are supported by 87 volunteers and 28 employeesof <br>
-                       warious skill leves. About 12% of the animals are taken by the <br>
-                       shelter staff. Taking care of the animals, they become attached <br>
+                    <p class="content__subheading">We feed our wards with the best food and make surre that they 
+                       do not get sick, feel comfortable (including psychologically) and 
+                       well. We are supported by 87 volunteers and 28 employeesof 
+                       warious skill leves. About 12% of the animals are taken by the 
+                       shelter staff. Taking care of the animals, they become attached 
                        to the pets and would hardly ever them alone.
                     </p>
                 </div>
@@ -67,23 +72,23 @@
                     are looking for a house
                 </h1>
                 <div class="pets__bigcard">
-                    <button class="button__arrow"><a href="#">&larr;</a></button>
-                    <div class="pets__littlecard">
+                    <button class="button__arrow button__arrow-one"><a href="#">&larr;</a></button>
+                    <div class="pets__littlecard katrine">
                         <img src="pets-katrine.png" alt="Katrine">
                         <p class="pets__name">Katrine</p>
                         <button class="button__secondary"><a href="" style="color:#292929">Learn more</a></button>
                     </div>
-                    <div class="pets__littlecard">
+                    <div class="pets__littlecard jennifer">
                         <img src="pets-jennifer.png" alt="Jennifer">
                         <p class="pets__name">Jennifer</p>
                         <button class="button__secondary"><a href="" style="color:#292929">Learn more</a></button>
                     </div>
-                    <div class="pets__littlecard">
+                    <div class="pets__littlecard woody">
                         <img src="pets-woody.png" alt="Woody">
                         <p class="pets__name">Woody</p>
                         <button class="button__secondary"><a href="" style="color:#292929">Learn more</a></button>
                     </div>
-                    <button class="button__arrow"><a href="#">&rarr;</a></button>
+                    <button class="button__arrow button__arrow-two"><a href="#">&rarr;</a></button>
                 </div>
                 <div class="pets__button">
                     <button class="button__primary button__primary-big"><a href="#">Get to know the reset</a></button>
@@ -132,7 +137,6 @@
             </div>
             <div class="donation">
                 <div class="donation__dog donation_left">
-                    <img src="donation-dog.png" alt="don-dog">
                 </div>
                 <div class="donation__contennt">
                     <h1>You can also<br>
@@ -144,33 +148,34 @@
                             <img class="imgs" src="credit-card.png" alt="card"><div>8380 2880 8028 8791 7435</div>
                         </a>
                     </button>
-                    <p class="donation__description">Legal information and lorem ipsum dolor sit amet, consectetur <br>
-                        adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac <br>
-                        diam. Praesent ultrices maximus tortor et vulputate. Interdum et <br>
+                    <p class="donation__description">Legal information and lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac 
+                        diam. Praesent ultrices maximus tortor et vulputate. Interdum et 
                         fames ac ante ipsum primis in faucibus.
                     </p>
                 </div>
             </div>
             <footer>
                 <div class="footer__content">
-                    <div class="footer__item">
+                    <div class="footer__item footer__item-text1">
                         <h3>For questions<br>
                             and syggestions
                         </h3>
                         <a class="footer__text" href="mailto:email@shelter.com"><h4><img class="imgs" src="mail.png" alt="mail"> email@shelter.com</h4></a><br>
                         <a class="footer__text" href="tel:+136745677554"><h4><img class="imgs" src="phone.png" alt="tel"> +13 674 567 75 54</h4></a>
                     </div>
-                    <div class="footer__item">
+                    <div class="footer__item footer__item-text2">
                         <h3>We are waiting <br>
                             for your visit
                         </h3>
-                        <a class="footer__text" href="https://www.google.ru/maps/place/Архипо-Осиповский+дельфинарий/@44.3591189,38.5294915,18z/data=!4m5!3m4!1s0x40f3d7d3dd6a9f2d:0xaf9a71e54bc7c001!8m2!3d44.3591799!4d38.5286584" target="_blank"><h4><img class="imgs" src="pin.png" alt="Dolphinarium">Dolphinarium in Arkhipo-Osipovka</h4></a><br>
-                        <a class="footer__text" href="https://www.google.ru/maps/place/18+S+Park+Cres,+London+SE6+1JW,+Великобритания/@51.4424692,0.003676,17z/data=!3m1!4b1!4m5!3m4!1s0x47d8a9e4af339053:0xe11dcf5f883a5cb2!8m2!3d51.4424692!4d0.0058647" target="_blank"><h4><img class="imgs" src="pin.png" alt="London">18 South Park, London</h4> </a>
+                        <a class="footer__text footer__text320" href="https://www.google.ru/maps/place/Архипо-Осиповский+дельфинарий/@44.3591189,38.5294915,18z/data=!4m5!3m4!1s0x40f3d7d3dd6a9f2d:0xaf9a71e54bc7c001!8m2!3d44.3591799!4d38.5286584" target="_blank"><h4><img class="imgs" src="pin.png" alt="Dolphinarium">Dolphinarium in Arkhipo-Osipovka</h4></a><br>
+                        <a class="footer__text footer__text320" href="https://www.google.ru/maps/place/18+S+Park+Cres,+London+SE6+1JW,+Великобритания/@51.4424692,0.003676,17z/data=!3m1!4b1!4m5!3m4!1s0x47d8a9e4af339053:0xe11dcf5f883a5cb2!8m2!3d51.4424692!4d0.0058647" target="_blank"><h4><img class="imgs" src="pin.png" alt="London">18 South Park, London</h4> </a>
                     </div>
+                </div>    
                     <div class="footer__item">
                         <img src="footer-puppy.png" alt="footer-puppy">
                     </div>
-                </div>
+                
             </footer>
         </div>
     </body>
