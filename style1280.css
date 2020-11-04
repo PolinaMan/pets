@@ -69,6 +69,8 @@ h5{
     line-height: 110%;
     letter-spacing: 0.06em;
     color: #545454;
+    padding: 2%;
+    margin: 1px;
 }
 p{
     font-family: Arial;
@@ -259,6 +261,86 @@ button:hover{
     margin: auto;
     height: 877px;
 }
+.pets1 {
+    display: none; 
+    position: fixed; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+    padding: 10px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    max-width: 1280px;
+    height: 100%; 
+    max-height: 877px;
+    margin: auto;
+    background-color: rgba(41, 41, 41, 0.6); 
+  }
+  .pets1-big{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 952px;
+    height: 100%;
+    max-height: 552px;
+    margin-bottom: 62px;
+    margin-left: 62px;
+  }
+  .pets1-content {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 500px;
+  }
+  .pets1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 500px;
+  }
+  .pets1-pet{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    background-image: url(pets-jennifer1280.png);
+    background-repeat: no-repeat;
+  }
+  .pets1-color{
+    color: #000;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px pink;
+    cursor: pointer;
+  }
 .pets__heading{
     align-self: center;
     text-align: center;
